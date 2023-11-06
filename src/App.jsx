@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import './index.css'
 import {Canvas} from "@react-three/fiber";
 import {OrbitControls} from "@react-three/drei";
 import Experience from './Experience.jsx'
