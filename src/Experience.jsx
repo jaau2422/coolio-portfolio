@@ -26,7 +26,9 @@ export default function Experience()
     position={[0,0.55,-1.15]}/>
 
     <primitive object={computer.scene}
-    position-y = {-1.2}
+    position-y = {-1.9}
+    position-x = {1.2}
+    scale ={1.3}
     >
         <Html
         transform
