@@ -21,7 +21,7 @@ export default function Experience()
         fontSize={ 0.3 }
         position={ [ -2.4, 0.75, 1.2 ] }
         rotation-y={ - 1.25 }
-        maxWidth={ 1 }>Hi, Im Jana</Text>
+        maxWidth={ 1 }>Hi, Im Jana,</Text>
     <rectAreaLight
     width={2.5}
     height={1.65}
@@ -31,7 +31,7 @@ export default function Experience()
     position={[0,0.55,-1.15]}/>
 
     <primitive object={computer.scene}
-    position-y = {-1.9}
+    position-y = {-2.2}
     position-x = {1.2}
     scale ={1.3}
     rotation-y = {-0.2}
@@ -47,12 +47,10 @@ export default function Experience()
         <iframe src="https://janaaumueller.cargo.site/"></iframe></Html>
         </primitive>
 
-        <Text
-        font="./RobotoMono-ThinItalic.ttf"
-        fontSize={ 0.3 }
-        position={ [ 2.4, 0.75, 1.2 ] }
-        rotation-y={ - 1.25 }
-        maxWidth={ 2.4 }>Welcome to my portfolio</Text>
+         
+            
+           
+
     
     </Float>
   
