@@ -21,7 +21,7 @@ export default function Experience()
         fontSize={ 0.3 }
         position={ [ -2.4, 0.75, 1.2 ] }
         rotation-y={ - 1.25 }
-        maxWidth={ 1 }>Hi, Im Jana,</Text>
+        maxWidth={ 1 }>Hi, Im Jana.</Text>
     <rectAreaLight
     width={2.5}
     height={1.65}
