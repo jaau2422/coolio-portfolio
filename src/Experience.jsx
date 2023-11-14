@@ -4,6 +4,14 @@ import './index.css'
 export default function Experience()
 {
     const computer = useGLTF("https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf")
+    const isMobile = () => {
+        return /iPhone|Android/i.test(navigator.userAgent);
+      };
+    
+      // Define the iframe URL based on the device
+      const iframeUrl = isMobile()
+        ? "https://janaaumueller.cargo.site/About" // Replace with the mobile URL
+        : "https://janaaumueller.cargo.site"; // Default URL for non-mobile devices
     return <>
      <Environment preset='city'/>
         <color args = { ['#000000']} attach = "background"/>
@@ -40,7 +48,7 @@ export default function Experience()
         rotation-x= {-0.260}
         >
 
-        <iframe src="https://janaaumueller.cargo.site/"></iframe></Html>
+        <iframe src={iframeUrl}></iframe></Html>
         </primitive>
        
          
