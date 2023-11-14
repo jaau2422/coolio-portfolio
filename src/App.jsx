@@ -1,7 +1,6 @@
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import './index.css'
 import {Canvas} from "@react-three/fiber";
-import {OrbitControls} from "@react-three/drei";
 import Experience from './Experience.jsx'
 
 
@@ -9,7 +8,7 @@ function App() {
 
   return (
     <>
-
+<Suspense fallback= {null}>
 <header className="header"><a href="https://janaaumueller.cargo.site/Page-1">
 
 <h2> projects	</h2></a>
@@ -26,6 +25,8 @@ camera={ {
 
    <Experience />
  </Canvas>
+ </Suspense>
+ 
  </>
   )
 }
