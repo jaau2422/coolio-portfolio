@@ -27,7 +27,7 @@ export default function Experience()
     position={[0,0.55,-1.15]}/>
 
     <primitive object={computer.scene}
-    position-y = {-2.2}
+    position-y = {-2.4}
     position-x = {1.2}
     scale ={1.3}
     rotation-y = {-0.2}
@@ -36,17 +36,14 @@ export default function Experience()
         transform
         wrapperClass='htmlScreen'
         distanceFactor={1.17}
-        position={[0,1.56,-1.4]}
+        position={[0,1.55,-1.4]}
         rotation-x= {-0.260}
         >
 
         <iframe src="https://janaaumueller.cargo.site/"></iframe></Html>
         </primitive>
-
+       
          
-            
-           
-
     
     </Float>
   
