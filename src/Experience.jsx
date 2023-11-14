@@ -1,11 +1,12 @@
 import { Text,Image, Html,ContactShadows,Float, Environment, PresentationControls, useGLTF } from '@react-three/drei'
 import './index.css'
+
 export default function Experience()
 {
     const computer = useGLTF("https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/macbook/model.gltf")
     return <>
      <Environment preset='city'/>
-        <color args = { ['#180038']} attach = "background"/>
+        <color args = { ['#000000']} attach = "background"/>
         
 <PresentationControls 
     global
@@ -16,12 +17,7 @@ export default function Experience()
     snap={{mass:4, tension:400}}
     >
     <Float rotationIntensity= {0.4}>
-    <Text
-        font="./RobotoMono-ThinItalic.ttf"
-        fontSize={ 0.3 }
-        position={ [ -2.4, 0.75, 1.2 ] }
-        rotation-y={ - 1.25 }
-        maxWidth={ 1 }>Hi, Im Jana.</Text>
+    
     <rectAreaLight
     width={2.5}
     height={1.65}
